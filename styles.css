@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'GT America VN';
+    src: url("fonts/GTAmericaVN-Bold.otf");
+}
+
+@font-face {
+    font-family: 'Barber';
+    src: url("fonts/Barber/Barber-Fill.otf");
+}
+
+@font-face {
+    font-family: 'Danh Da';
+    src: url("fonts/Danh Da/danhda-bold.beta.otf");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-title {
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.page-title p {
+    font-family: 'GT America VN';
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.page-bottom {
+    width: 100vw;
+    position: fixed;
+    bottom: 100px;
+
+    font-family: 'GT America VN';
+    color: white;
+    font-size: 14;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.input:focus {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.page .input {
+    /*
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    */
+
+    margin-top: 200px;
+    margin-left: 10vw;
+    
+
+    width: 80%;
+    max-height: 50%;
+    overflow: scroll;
+    text-align: center;
+    border: none;
+}
+
+#barber {
+    background: #0C40C1;
+}
+
+#barber .input {
+    font-family: 'Barber';
+    color: #FFE424;
+    font-size: 100px;
+}
+
+#danhda {
+    background: #61249B;
+}
+
+#danhda .input {
+    font-family: 'Danh Da';
+    color: #EADA8F;
+    font-size: 200px;
+}
+
+#danhda {
+    background: #61249B;
+}
+
+#danhda .input {
+    font-family: 'Danh Da';
+    color: #EADA8F;
+    font-size: 200px;
+}
